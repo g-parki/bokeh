@@ -86,3 +86,8 @@ with attribute access.
 Use new TypeScript 4.4 static blocks ``static {}`` instead. Support for static
 ``init_`` methods will be removed in bokeh 3.0. This change only affects model
 providing extensions.
+
+``EditTool.custom_icon`` was deprecated
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Use ``Tool.icon`` property instead.
